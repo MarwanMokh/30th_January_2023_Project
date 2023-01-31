@@ -13,7 +13,7 @@ jobs:
         id: read_file
         uses: andstor/file-reader-action@v1
         with:
-          path: "NAME.txt"
+          path: "C:\Users\m.mahmoud\Github_Projects\30th_January_2023_Project\NAME.txt"
 
       - name: File contents
         run: echo "${ steps.read_file.outputs.contents }"
