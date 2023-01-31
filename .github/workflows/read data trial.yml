@@ -16,5 +16,5 @@ jobs:
           path: "NAME.txt"
 
       - name: File contents
-        shell: bash
+        shell: dash
         run: echo "${ steps.read_file.outputs.contents }"
