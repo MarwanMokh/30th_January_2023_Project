@@ -16,5 +16,4 @@ jobs:
           path: "NAME.txt"
 
       - name: File contents
-        run: echo "${ steps.read_file.outputs.contents }"
-        shell: perl {0}
+        run: echo ""${ steps.read_file.outputs.contents }""
